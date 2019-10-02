@@ -1,0 +1,28 @@
+#score {
+  text-align: center;
+  background-color: green;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+#gameHeader {
+  font-weight: normal;
+  color: white;
+}
+#results {
+  text-align: center;
+  background-color: aqua;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 40px;
+}
+#winsHeader {
+  font-weight: normal;
+}
+#lossesHeader {
+  font-weight: normal;
+}
