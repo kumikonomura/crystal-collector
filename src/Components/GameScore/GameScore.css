@@ -1,7 +1,7 @@
 #score {
   text-align: center;
   background-color: green;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
@@ -22,7 +22,9 @@
 }
 #winsHeader {
   font-weight: normal;
+  font-size: medium;
 }
 #lossesHeader {
   font-weight: normal;
+  font-size: medium;
 }
