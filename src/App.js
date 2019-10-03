@@ -7,10 +7,10 @@ import UserScore from "./Components/UserScore";
 
 class App extends React.Component {
   state = {
-    diamond: Math.floor(Math.random() * 100 + 1),
-    emerald: Math.floor(Math.random() * 100 + 1),
-    ruby: Math.floor(Math.random() * 100 + 1),
-    sapphire: Math.floor(Math.random() * 100 + 1),
+    diamond: Math.floor(Math.random() * 50 + 1),
+    emerald: Math.floor(Math.random() * 50 + 1),
+    ruby: Math.floor(Math.random() * 50 + 1),
+    sapphire: Math.floor(Math.random() * 50 + 1),
     gameScore: Math.floor(Math.random() * 100 + 1),
     userScore: 0,
     wins: 0,
@@ -24,8 +24,36 @@ class App extends React.Component {
     console.log("click diamond working");
     let diamond = this.state.diamond;
     this.setState({
-      diamond
+      diamond: diamond
     });
+    console.log(diamond);
+  };
+
+  handleClickEmerald = _ => {
+    console.log("click emerald working");
+    let emerald = this.state.emerald;
+    this.setState({
+      emerald: emerald
+    });
+    console.log(emerald);
+  };
+
+  handleClickRuby = _ => {
+    console.log("click ruby working");
+    let ruby = this.state.ruby;
+    this.setState({
+      ruby: ruby
+    });
+    console.log(ruby);
+  };
+
+  handleClickSapphire = _ => {
+    console.log("click sapphire working");
+    let sapphire = this.state.sapphire;
+    this.setState({
+      sapphire: sapphire
+    });
+    console.log(sapphire);
   };
 
   render() {
@@ -40,6 +68,9 @@ class App extends React.Component {
         />
         <Jewels
           handleClickDiamond={this.handleClickDiamond}
+          handleClickEmerald={this.handleClickEmerald}
+          handleClickRuby={this.handleClickRuby}
+          handleClickSapphire={this.handleClickSapphire}
           diamond={this.state.diamond}
           emerald={this.state.emerald}
           ruby={this.state.ruby}

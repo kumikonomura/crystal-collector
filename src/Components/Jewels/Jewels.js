@@ -8,14 +8,10 @@ import "./Jewels.css";
 const Jewels = props => {
   return (
     <div className="ui small images">
-      <img
-        id="picture"
-        onClick={props.handleClickDiamond}
-        src={Diamond}
-      />
-      <img id="picture" src={Emerald} />
-      <img id="picture" src={Ruby} />
-      <img id="picture" src={Sapphire} />
+      <img id="picture" onClick={props.handleClickDiamond} src={Diamond} />
+      <img id="picture" onClick={props.handleClickEmerald} src={Emerald} />
+      <img id="picture" onClick={props.handleClickRuby} src={Ruby} />
+      <img id="picture" onClick={props.handleClickSapphire} src={Sapphire} />
     </div>
   );
 };
