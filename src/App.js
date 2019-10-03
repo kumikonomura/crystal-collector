@@ -7,10 +7,10 @@ import UserScore from "./Components/UserScore";
 
 class App extends React.Component {
   state = {
-    diamond: Math.floor(Math.random() * 50 + 1),
-    emerald: Math.floor(Math.random() * 50 + 1),
-    ruby: Math.floor(Math.random() * 50 + 1),
-    sapphire: Math.floor(Math.random() * 50 + 1),
+    diamond: Math.floor(Math.random() * 20 + 1),
+    emerald: Math.floor(Math.random() * 20 + 1),
+    ruby: Math.floor(Math.random() * 20 + 1),
+    sapphire: Math.floor(Math.random() * 20 + 1),
     gameScore: Math.floor(Math.random() * 100 + 1),
     userScore: 0,
     wins: 0,
@@ -23,8 +23,10 @@ class App extends React.Component {
   handleClickDiamond = _ => {
     console.log("click diamond working");
     let diamond = this.state.diamond;
+    let userScore = 0;
     this.setState({
-      diamond: diamond
+      diamond: diamond,
+      userScore: userScore + diamond
     });
     console.log(diamond);
   };
@@ -76,7 +78,7 @@ class App extends React.Component {
           ruby={this.state.ruby}
           sapphire={this.state.sapphire}
         />
-        <UserScore />
+        <UserScore userScore={this.state.userScore} />
       </>
     );
   }

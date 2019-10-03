@@ -1,9 +1,10 @@
 import React from "react";
+import "./UserScore.css";
 
-const UserScore = _ => {
+const UserScore = props => {
   return (
-    <div>
-      <h4>User Score:</h4>
+    <div id="totalScore">
+      <h4 id="userScoreHeader">User Score: {props.userScore}</h4>
     </div>
   );
 };
