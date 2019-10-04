@@ -23,7 +23,7 @@ class App extends React.Component {
   handleClickDiamond = _ => {
     console.log("click diamond working");
     let diamond = this.state.diamond;
-    let userScore = 0;
+    let userScore = this.state.userScore;
     this.setState({
       diamond: diamond,
       userScore: userScore + diamond
@@ -34,8 +34,10 @@ class App extends React.Component {
   handleClickEmerald = _ => {
     console.log("click emerald working");
     let emerald = this.state.emerald;
+    let userScore = this.state.userScore;
     this.setState({
-      emerald: emerald
+      emerald: emerald,
+      userScore: userScore + emerald
     });
     console.log(emerald);
   };
@@ -43,8 +45,10 @@ class App extends React.Component {
   handleClickRuby = _ => {
     console.log("click ruby working");
     let ruby = this.state.ruby;
+    let userScore = this.state.userScore;
     this.setState({
-      ruby: ruby
+      ruby: ruby,
+      userScore: userScore + ruby
     });
     console.log(ruby);
   };
@@ -52,8 +56,10 @@ class App extends React.Component {
   handleClickSapphire = _ => {
     console.log("click sapphire working");
     let sapphire = this.state.sapphire;
+    let userScore = this.state.userScore;
     this.setState({
-      sapphire: sapphire
+      sapphire: sapphire,
+      userScore: userScore + sapphire
     });
     console.log(sapphire);
   };
