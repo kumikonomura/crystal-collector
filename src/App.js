@@ -172,7 +172,7 @@ class App extends React.Component {
           ruby={this.state.ruby}
           sapphire={this.state.sapphire}
         />
-        {/* <UserScore userScore={this.state.userScore} /> */}
+        <UserScore userScore={this.state.userScore} />
       </>
     );
   }
