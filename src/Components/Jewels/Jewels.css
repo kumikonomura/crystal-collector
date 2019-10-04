@@ -1,8 +1,51 @@
-#picture {
+#diamond {
   position: relative;
-  float: left;
+  float: center;
   width: 100px;
   height: 100px;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#emerald {
+  position: relative;
+  float: center;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ruby {
+  position: relative;
+  float: center;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sapphire {
+  position: relative;
+  float: center;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+  height: 150px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;

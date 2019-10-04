@@ -4,6 +4,7 @@ import Instructions from "./Components/Instructions";
 import GameScore from "./Components/GameScore";
 import Jewels from "./Components/Jewels";
 import UserScore from "./Components/UserScore";
+// import './App.css'
 
 class App extends React.Component {
   state = {
@@ -171,7 +172,7 @@ class App extends React.Component {
           ruby={this.state.ruby}
           sapphire={this.state.sapphire}
         />
-        <UserScore userScore={this.state.userScore} />
+        {/* <UserScore userScore={this.state.userScore} /> */}
       </>
     );
   }
