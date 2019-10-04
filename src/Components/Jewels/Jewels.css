@@ -3,10 +3,10 @@
   float: center;
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,10 +16,10 @@
   float: center;
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,10 +29,10 @@
   float: center;
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,11 +42,14 @@
   float: center;
   width: 100px;
   height: 100px;
-  margin: 20px;
+  margin: 5px;
   padding: 10px;
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#jewelsHolder {
+  text-align: center;
 }

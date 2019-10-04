@@ -7,7 +7,7 @@ import "./Jewels.css";
 
 const Jewels = props => {
   return (
-    <div className="ui small images">
+    <div id='jewelsHolder' className="ui small images">
       <img id="diamond" onClick={props.handleClickDiamond} src={Diamond} />
       <img id="emerald" onClick={props.handleClickEmerald} src={Emerald} />
       <img id="ruby" onClick={props.handleClickRuby} src={Ruby} />
