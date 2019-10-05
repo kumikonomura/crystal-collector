@@ -13,12 +13,12 @@
 #totalScore {
   text-align: center;
   background-color: cadetblue;
-  padding: 15px;
+  padding: 12px;
   height: 45px;
   margin-left: 100px;
   margin-right: 100px;
   position: relative;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #userScoreHeader {
