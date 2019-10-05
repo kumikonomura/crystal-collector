@@ -1,4 +1,4 @@
-#totalScore {
+/* #totalScore {
   text-align: center;
   background-color: cadetblue;
   margin-left: 40px;
@@ -8,7 +8,19 @@
   padding: 5px;
   height: 45px;
   width: 500px;
+} */
+
+#totalScore {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 10px;
+  height: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  margin-top: 10px;
 }
+
 #userScoreHeader {
   font-family: "Montserrat", sans-serif;
 }

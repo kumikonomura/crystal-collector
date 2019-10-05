@@ -4,7 +4,9 @@
   padding: 15px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
+  width: 600px;
+  float: left;
 }
 #gameHeader {
   font-weight: normal;
@@ -17,7 +19,9 @@
   padding: 5px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 5px;
+  margin-top: 3px;
+  width: 600px;
+  float: right;
 }
 #winsHeader {
   font-weight: normal;
