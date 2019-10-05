@@ -8,8 +8,8 @@ const GameScore = props => {
         <h4 id="gameHeader">Game Score: {props.gameScore}</h4>
       </div>
       <div id="results">
-        <h4 id="winsHeader">Wins: {props.wins}</h4>
-        <h4 id="lossesHeader">Losses: {props.losses}</h4>
+        <h4 id="winsHeader">Wins: {props.wins} | Losses: {props.losses}</h4>
+        {/* <h4 id="lossesHeader">Losses: {props.losses}</h4> */}
       </div>
     </>
   );

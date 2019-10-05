@@ -1,11 +1,9 @@
 #diamond {
   position: relative;
   float: center;
-  width: 100px;
-  height: 100px;
   margin: 5px;
   padding: 10px;
-  width: 140px;
+  width: 150px;
   height: 140px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -14,8 +12,6 @@
 #emerald {
   position: relative;
   float: center;
-  width: 100px;
-  height: 100px;
   margin: 5px;
   padding: 10px;
   width: 140px;
@@ -27,8 +23,6 @@
 #ruby {
   position: relative;
   float: center;
-  width: 100px;
-  height: 100px;
   margin: 5px;
   padding: 10px;
   width: 140px;
@@ -40,8 +34,6 @@
 #sapphire {
   position: relative;
   float: center;
-  width: 100px;
-  height: 100px;
   margin: 5px;
   padding: 10px;
   width: 140px;

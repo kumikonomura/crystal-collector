@@ -16,10 +16,10 @@
 #results {
   text-align: center;
   background-color: aqua;
-  padding: 5px;
+  padding: 15px;
   margin-left: 40px;
   margin-right: 40px;
-  margin-top: 3px;
+  margin-top: 10px;
   width: 600px;
   float: right;
 }
