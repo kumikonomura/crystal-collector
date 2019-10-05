@@ -68,6 +68,7 @@ class App extends React.Component {
         userScore: 0,
         gameScore: Math.floor(Math.random() * 20 + 1)
       });
+      window.alert("you win");
     } else if (userScore > gameScore) {
       this.setState({
         losses: losses + 1,
@@ -96,6 +97,7 @@ class App extends React.Component {
         userScore: 0,
         gameScore: Math.floor(Math.random() * 20 + 1)
       });
+      window.alert("you win");
     } else if (userScore > gameScore) {
       this.setState({
         losses: losses + 1,
@@ -124,6 +126,7 @@ class App extends React.Component {
         userScore: 0,
         gameScore: Math.floor(Math.random() * 20 + 1)
       });
+      window.alert("you win");
     } else if (userScore > gameScore) {
       this.setState({
         losses: losses + 1,

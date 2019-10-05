@@ -9,20 +9,23 @@
 #gameHeader {
   font-weight: normal;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 #results {
   text-align: center;
   background-color: aqua;
   padding: 5px;
   margin-left: 40px;
-  margin-right:40px;
+  margin-right: 40px;
   margin-top: 5px;
 }
 #winsHeader {
   font-weight: normal;
   font-size: medium;
+  font-family: "Montserrat", sans-serif;
 }
 #lossesHeader {
   font-weight: normal;
   font-size: medium;
+  font-family: "Montserrat", sans-serif;
 }
